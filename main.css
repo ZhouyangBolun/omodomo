@@ -3,3 +3,34 @@
     font-weight: bold;
     padding: 16px;
 }
+
+html, body{
+    height: 100%;
+}
+
+body {display: flex; flex-flow: column;}
+
+.head, .foot{
+    height: 50px;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    width: 960px;
+    align-self: center;
+}
+
+.side {
+    width: 200px;
+
+}
+
+.main {
+    flex: 1;    
+    margin-left: 10px;
+}
+
+.foot {
+    text-align-last: center;
+}
